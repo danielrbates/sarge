@@ -1,1 +1,1 @@
-Contains BASH scripts.
+Red team tools and scripts.
